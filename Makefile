@@ -1,4 +1,4 @@
-.PHONY: 01a 01b 02a 02b
+.PHONY: 01a 01b 02a 02b 03a 03b
 
 01a: 01.js 01input.txt
 	node 01.js a < 01input.txt
@@ -11,3 +11,9 @@
 
 02b: 02.js 02input.txt
 	node 02.js b < 02input.txt
+
+03a: 03.js
+	node 03.js a 368078
+
+03b: 03.js
+	node 03.js b 368078
